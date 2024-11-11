@@ -1,0 +1,63 @@
+body {
+  font-family: "Doto", sans-serif;
+  background-color: #242430;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 2em;
+}
+
+#centered-div {
+  padding: 1.5em;
+  background-color: #282834;
+  border-radius: 1em;
+  max-width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+#result-block {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+}
+
+#result {
+  font-size: 1em;
+  font-weight: 700;
+  color: #f72585;
+}
+
+#text-field {
+  width: 100%;
+  border-radius: 0.5em;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+}
+
+#text-input {
+  width: 70%;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  border: pink;
+  font-size: 0.75em;
+  font-weight: 500;
+  font-family: "Doto", sans-serif;
+}
+
+#check-btn {
+  width: 30%;
+  border-radius: 0.5em;
+  border: pink;
+  background-color: #f72585;
+  color: white;
+  font-weight: 700;
+  font-size: 0.75em;
+  font-family: "Doto", sans-serif;
+}
